@@ -1,0 +1,192 @@
+body,
+ul,
+li,
+h1,
+h2,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+header {
+  background-color: #f63232;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+header h1 {
+  color: white;
+  border: 8px solid white;
+  padding: 6px 12px;
+  border-radius: 36px;
+  display: inline-block;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.banner .welcome {
+  background-color: #feb614;
+  color: white;
+  position: absolute;
+  padding: 30px;
+  left: 5px;
+  top: 30%;
+  border-radius: 36px;
+}
+
+.banner h2 {
+  font-size: 74px;
+}
+
+.banner h2 span {
+  font-size: 1.3em;
+}
+
+nav {
+  background-color: #f4f4f4;
+  padding: 20px;
+  position: sticky;
+  top: 106px;
+}
+
+nav ul {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav li {
+  width: 25%;
+  display: inline-block;
+  font-size: 24px;
+}
+
+nav li a {
+  display: flex;
+  text-decoration: none;
+  color: #4b4b4b;
+  justify-content: space-evenly;
+}
+
+nav li a.join {
+  color: #f63232;
+  font-size: 32px;
+  font-weight: bold;
+  border: 8px solid #f63232;
+  padding: 6px 12px;
+  border-radius: 36px;
+}
+
+nav li a.news {
+  color: #fab829;
+  font-size: 32px;
+  font-weight: bold;
+  border: 8px solid #fab829;
+  padding: 6px 12px;
+  border-radius: 36px;
+}
+
+nav li a.games {
+  color: #f63232;
+  font-size: 32px;
+  font-weight: bold;
+  border: 8px solid #f63232;
+  padding: 6px 12px;
+  border-radius: 36px;
+}
+
+nav li a.contact {
+  color: #fab829;
+  font-size: 32px;
+  font-weight: bold;
+  border: 8px solid #fab829;
+  padding: 6px 12px;
+  border-radius: 36px;
+}
+
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+article h2 {
+  color: #f63232;
+  font-size: 48px;
+  text-align: center;
+}
+
+article p {
+  line-height: 2em;
+  color: #4b4b4b;
+  text-align: center;
+  font-size: 20px;
+}
+
+.images {
+  text-align: center;
+  margin: 80px 0;
+  white-space: nowrap;
+}
+
+.images li {
+  display: inline-block;
+  width: 40%;
+  margin: 20px 5%;
+}
+
+.images li img {
+  max-width: 100%;
+}
+
+.join {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 60px 20px;
+  color: #4b4b4b;
+}
+
+.join h2 {
+  line-height: 2em;
+  color: #f63232;
+  text-align: center;
+  font-size: 52px;
+}
+
+.join p {
+  line-height: 2em;
+  color: #4b4b4b;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+form input {
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 28px;
+  border: 4px solid white;
+}
+
+footer {
+  background: #f63232;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
