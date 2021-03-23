@@ -141,6 +141,7 @@ article p {
   text-align: center;
   margin: 80px 0;
   white-space: nowrap;
+  margin-bottom: 0px;
 }
 
 .images li {
@@ -151,13 +152,17 @@ article p {
 
 .images li img {
   max-width: 100%;
+  border-radius: 28px;
+  border: 4px solid #f63232;
+  align-items: center;
 }
 
 .join {
   background: #f4f4f4;
   text-align: center;
-  padding: 60px 20px;
+  padding: 0px 20px;
   color: #4b4b4b;
+  margin-top: 0px;
 }
 
 .join h2 {
